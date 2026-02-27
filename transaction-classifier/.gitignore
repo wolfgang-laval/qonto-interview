@@ -1,0 +1,10 @@
+data/
+
+!data/**/.gitkeep
+
+__pycache__/
+.venv/
+.python-version
+.uv/
+
+.DS_Store
