@@ -1,0 +1,22 @@
+RAW_FILENAME = "skills-test-ml-eng-data-products.csv"
+PROCESSED_FILENAME = "features.csv"
+
+TEXT_COL = ["TEXT"]
+NUMERIC_COLS = [
+    "LOG_AMOUNT",
+    "AMOUNT_BUCKET",
+    "DAY_OF_WEEK",
+    "IS_WEEKEND",
+    "DAY_OF_MONTH",
+    "MONTH_THIRD",
+    "MONTH",
+    "IS_DESCRIPTION_EMPTY",
+    "TEXT_LENGTH",
+]
+CATEGORIC_COLS = ["TYPE_OF_PAYMENT"]
+TARGET = ["CATEGORY"]
+
+TEST_SIZE = 0.2
+RANDOM_STATE = 42
+
+MIN_SAMPLES = 10

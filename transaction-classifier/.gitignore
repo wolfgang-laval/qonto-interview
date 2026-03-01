@@ -1,14 +1,18 @@
 data/*
 figures/*
+models/*
 
 !data/**/
 !figures/**/
+!models/**/
 
 !data/**/.gitkeep
 !figures/**/.gitkeep
+!models/**/.gitkeep
 
 *.csv
 *.png
+*.npy
 
 __pycache__/
 .venv/
